@@ -32,5 +32,21 @@
     "react-redux": "5.0.7",
     "react-router": "^2.0.1",
     "redux": "4.0.0"
+  },
+  "semistandard": {
+    "ignore": [
+      "**/modules/"
+    ],
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
   }
+
 }
